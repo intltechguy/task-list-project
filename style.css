@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #333;
+  justify-items: center;
+}
+
+#task-actions {
+  background: #fff;
+  margin: 1rem 0;
+  padding: 3rem 2rem;
+  height: 20vh;
+  width: 50vw;
+  justify-items: center;
+}
+
+#header-name {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #0000ff;
+}
+
+#task-input {
+  width: 25rem;
+  height: 3rem;
+  margin-left: 6rem;
+  padding-left: 5px;
+  font-size: large;
+  border: magenta 1px solid;
+}
+
+#task-input:hover {
+  background: #ccc;
+  border: 0;
+  border: #0000ff solid 1px;
+}
+
+#btn-add {
+  width: 5rem;
+  height: 3.2rem;
+  background: #0000ff;
+  color: #fff;
+  border: 0;
+}
+
+#btn-add:hover {
+  cursor: pointer;
+  background: magenta;
+  color: #fff;
+  border: 0;
+}
+
+#btn-add:active {
+  cursor: pointer;
+  background: magenta;
+  color: #fff;
+  border: 0;
+}
+
+#task-display {
+  background: #fff;
+  padding: 1rem 2rem;
+  width: 50vw;
+  height: 50vh;
+}
+
+#task-list {
+  font-size: 2rem;
+  color: #0000ff;
+  list-style: circle;
+}
+
+.delete-btn {
+  width: 5rem;
+  height: 2rem;
+  margin-left: 1.2rem;
+  background: #0000ff;
+  color: #fff;
+  border: 0;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+  background: magenta;
+  color: #fff;
+  border: 0;
+}
